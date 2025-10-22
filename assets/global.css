@@ -1,15 +1,82 @@
+/* ================================================== */
+/* 1. DESKTOP (Default)                               */
+/* ================================================== */
+
+/* --- Base Styles: Desktop, Light Theme, Landscape --- */
 body {
     margin: 0;
     padding: 0;
 }
 
 section.uc {
-    background-color: #ffcc00 !important;
-    width: 100vw !important;
-    height: 100vh !important;
-    font-size: 36px !important;
-    text-align: center !important;
-    align-content: center !important;
-    z-index: 1000000 !important;
+    background-color: mediumseagreen;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    font-size: 36px;
+    text-align: center;
+    align-content: center;
+    z-index: 1000000;
 }
 
+/* --- Combination: Desktop, Dark Theme, Landscape --- */
+@media (prefers-color-scheme: dark) {
+    section.uc {
+        background-color: darkslategray;
+        color: white;
+        width: 100vw;
+        height: 100vh;
+        font-size: 36px;
+        text-align: center;
+        align-content: center;
+        z-index: 1500000;
+    }
+}
+
+/* ================================================== */
+/* 2. TABLET (<= 1024px)                              */
+/* ================================================== */
+
+/* --- Combination: Tablet, Light Theme, Portrait --- */
+@media (max-width: 1024px) and (orientation: portrait) {
+
+}
+
+/* --- Combination: Tablet, Light Theme, Landscape --- */
+@media (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/* --- Combination: Tablet, Dark Theme, Portrait --- */
+@media (max-width: 1024px) and (orientation: portrait) and (prefers-color-scheme: dark) {
+
+}
+
+/* --- Combination: Tablet, Dark Theme, Landscape --- */
+@media (max-width: 1024px) and (orientation: landscape) and (prefers-color-scheme: dark) {
+
+}
+
+/* ================================================== */
+/* 3. PHONE (<= 767px)                                */
+/* ================================================== */
+
+/* --- Combination: Phone, Light Theme, Portrait --- */
+@media (max-width: 767px) and (orientation: portrait) {
+
+}
+
+/* --- Combination: Phone, Light Theme, Landscape --- */
+@media (max-width: 767px) and (orientation: landscape) {
+
+}
+
+/* --- Combination: Phone, Dark Theme, Portrait --- */
+@media (max-width: 767px) and (orientation: portrait) and (prefers-color-scheme: dark) {
+
+}
+
+/* --- Combination: Phone, Dark Theme, Landscape --- */
+@media (max-width: 767px) and (orientation: landscape) and (prefers-color-scheme: dark) {
+
+}
