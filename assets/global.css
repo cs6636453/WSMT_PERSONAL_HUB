@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section.uc {
+    background-color: #ffcc00 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    font-size: 36px !important;
+    text-align: center !important;
+    align-content: center !important;
+    z-index: 1000000 !important;
+}
+
